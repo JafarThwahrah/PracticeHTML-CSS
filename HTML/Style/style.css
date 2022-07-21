@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: rgb(92, 122, 162);
+}
+header img{
+    height: 150px;
+    width: 150px;
+    margin-top: -1.8em;
+}
+.Nav-bar{
+    height: 50px;
+    list-style: none;
+    background-color: beige;
+    align-content: center;  
+}
+header nav li {
+    display: inline;
+}
+header h3 {
+text-align: center;
+}
+
+
+header form {
+    display: inline;
+    margin-top: 2em;
+
+}
+#Top-background{
+    background: url(../Library-background.png);
+    margin-top: -1.2em;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.sign-in{
+    background-color: beige;
+    opacity: 90%;
+    display: inline-block;
+    border-radius: 10%;
+   margin-top: 5em;
+   margin-left: 60em;
+}
+.intro{
+    width: 600px;
+}
+
+form div{
+    margin: 3em 3em 3em 3em;
+}
+
+.middle-photos{
+    margin-top: 8em;
+    height: 300px;
+    margin-left: 5em;
+    opacity: 90%;
+    border-radius: 15%;
+}
+article{
+    display: inline-block;
+    background-color: beige;
+    padding: 3em 3em 3em 3em;
+    margin-top: 6em;
+    margin-left: 3em;
+    border-radius: 3%;
+    opacity: 90%;
+    position: absolute;
+}
+.secondBackground{
+    background: url(https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1890&q=80);
+    position: relative;
+    padding-top: 10em;
+    margin-bottom: 0px;
+}
+.addNewBook{
+    background-color: beige;
+    padding:  3em 3em 3em 3em;
+    opacity: 90%;
+    width: 846px;
+}
+
+.Books-table{
+    background-color: beige;
+    padding:  3em 3em 3em 3em;
+    opacity: 90%;
+}
+
+
+
+.table-caption {
+
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline;
+    margin-left: 160%;
+}
+.formANDaddNewBook{
+margin-left: 45%;
+margin-bottom: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(92, 122, 162) ;
+}
+
+
+
+
