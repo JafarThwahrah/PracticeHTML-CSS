@@ -8,32 +8,22 @@
     <link rel="stylesheet" href="./Style/style.css">
 </head>
   <body>
-      <header> 
+    <header> 
+      <img src="https://play-lh.googleusercontent.com/gu08Nedo6HykBBNpwC2D83vp7WYIJAaXLDhg_PTW_DJiJv2-2yd8wsOopsTeCnLLHEiq=w240-h480-rw ">
 
-        <img src="https://play-lh.googleusercontent.com/gu08Nedo6HykBBNpwC2D83vp7WYIJAaXLDhg_PTW_DJiJv2-2yd8wsOopsTeCnLLHEiq=w240-h480-rw ">
-        
-          <form action="">
-          <input type="search">
-          <button type="submit">Search Now</button>
-
-        </form>
-
-        <nav>
-          <table>
-          <h3>
-              <ul class="Nav-bar">
-              <li> <a href=""> Home</li></a> 
-              <li><a href="">My Ebooks</a></li>
-              <li><a href="">Audio books</a></li>
-              <li><a href="">For Kids</a></li>
-              <li><a href="">Resourses</a></li>
-
-          </ul>
-          </h3>
-        </table>
-        </nav>
-      </header>
-  <main>
+        <ul class="Nav-bar">
+            <li> <a href=""> Home</li></a> 
+            <li><a href="">My Ebooks</a></li>
+            <li><a href="">Audio books</a></li>
+            <li><a href="">For Kids</a></li>
+            <li><a href="">Resourses</a></li>
+              <li>
+                <input type="search" class="searchInput">
+                <button type="submit" class="searchButton">Search Now</button>
+              </li>
+         </ul>
+    </header>
+   <main>
     <div id="Top-background">
       <article class="Welcome">
     <h2>Welcome to our website</h2>
@@ -43,7 +33,7 @@
 <div>
   <h3>Sign in</h3>
     <label>Name:</label>
-      <input type="text" required >
+      <input type="text" required placeholder="ex:John">
     <br>
     <br>
     <label>Email:</label>
@@ -140,7 +130,7 @@
   </form>
 
 
-      <table border="2" class="Books-table">
+      <table border="1" class="Books-table">
       <caption class="table-caption">SuggestedBooks</caption>
       <tr>
           <td>Book Name</td>
@@ -186,19 +176,21 @@
         </tr>
     </table>
   </div>
-    <p>Best Sold Books</p>
+</div>
+<div class="bestSoldBooks">
+    <p class="bestSoldBooksP">Best Sold Books</p>
   <ol>
       <li>The Hobet</li>
       <li>Lord of the ring</li>
   </ol>
+</div>
   </main>
  
      </div>
-    </div>
   </body>
   <Footer>
 
     <marquee behavior="" direction="right">
-    <p>Jafar Group 4 2022 &copy;</p>
+    <p class="footerP">Jafar Group 4 2022 &copy;</p>
   </Footer>
 </html>

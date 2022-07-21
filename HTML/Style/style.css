@@ -3,40 +3,57 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    background-color: rgb(163, 171, 187);
+  }
+  button:hover {
+    background-color: rgb(163, 171, 187);
+  }
 header{
-    background-color: rgb(92, 122, 162);
+    background: linear-gradient(180deg, #908c86 0%, rgba(74, 80, 125, 0) 100%);
+    height: 100px;
+    position: relative;
 }
+
 header img{
-    height: 150px;
-    width: 150px;
-    margin-top: -1.8em;
+    height: 100px;
+    width: 100px;
 }
+
 .Nav-bar{
-    height: 50px;
-    list-style: none;
-    background-color: beige;
-    align-content: center;  
-}
-header nav li {
+    list-style: none; 
+    position: absolute;
     display: inline;
-}
-header h3 {
-text-align: center;
+    margin-top: 40px;
 }
 
-
-header form {
+header li {
     display: inline;
-    margin-top: 2em;
-
+    margin: 1.5em;
+}
+.searchButton{
+    border-radius: 20px;
+    border: none;
+}
+.searchInput{
+      margin-left: 300px;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    
 }
 #Top-background{
     background: url(../Library-background.png);
-    margin-top: -1.2em;
 }
 h2{
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: rgb(153, 115, 115);
 }
 
 .sign-in{
@@ -82,13 +99,14 @@ article{
     background-color: beige;
     padding:  3em 3em 3em 3em;
     opacity: 90%;
-    width: 846px;
+    width: 645.74px;
 }
 
 .Books-table{
     background-color: beige;
     padding:  3em 3em 3em 3em;
     opacity: 90%;
+    width: 645.74px;
 }
 
 
@@ -101,9 +119,17 @@ article{
     margin-left: 160%;
 }
 .formANDaddNewBook{
-margin-left: 45%;
-margin-bottom: 10%;
+margin-left: 750px;
+margin-bottom: 0;
 
+}
+.bestSoldBooks{
+    margin-top: 0;
+    margin-bottom: 0;
+    background: linear-gradient(180deg, #908c86 0%, rgba(74, 80, 125, 0) 100%);
+}
+.bestSoldBooksP{
+    margin-top: 0;
 }
 
 
@@ -131,6 +157,7 @@ margin-bottom: 10%;
 footer{
     background-color: rgb(92, 122, 162) ;
 }
+
 
 
 
